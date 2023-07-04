@@ -10,7 +10,7 @@ body
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height:100rem;
+        height:150rem;
 }
 
 .header
@@ -18,7 +18,7 @@ body
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,39,43,1) 0%);
         display: flex;
         padding: 20px 10px;
-        width: 100%;
+        width: 120%;
         align-items: center;
         justify-content: space-between;
         opacity: 60%;
