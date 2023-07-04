@@ -7,10 +7,10 @@ body
 .home
 {
         background-image: url(./assets/images/Background.jpg);
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
-        height:150rem;
+        background-size: cover cover;
+        height: 100rem;
 }
 
 .header
@@ -18,7 +18,7 @@ body
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,39,43,1) 0%);
         display: flex;
         padding: 20px 10px;
-        width: 120%;
+        width: 100%;
         align-items: center;
         justify-content: space-between;
         opacity: 60%;
