@@ -1,6 +1,7 @@
 body
 {
-        margin: 0px;  
+        background: black;
+
 }
 
 .home
@@ -8,8 +9,10 @@ body
         background-image: url(./assets/images/Background1.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto;
-        height: 100rem;
+        background-size: cover;
+        width: 200;
+        height: 100vmax;
+             
 }
 
 .header
@@ -19,7 +22,6 @@ body
         padding: 20px 10px;
         align-items: center;
         justify-content: space-between;
-        z-index: 100%;
 }
 
  .logo 
@@ -60,7 +62,7 @@ body
 {
         color: azure;
         font-family: 'Martian Mono', monospace;
-        margin-left: 80px;
+        text-align: center;
         margin-top: -2em;
         font-size: 1.9vh;
 }
